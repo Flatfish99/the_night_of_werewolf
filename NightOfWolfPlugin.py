@@ -6,7 +6,8 @@ from bridge.reply import Reply, ReplyType
 from bridge.context import ContextType
 from bridge.bridge import Bridge
 from plugins import *
-from TheNightOfWolf import *
+from TheNightOfWolf import TextAdventureGame, GameState
+
 @plugins.register(
     name="NightOfWolf",
     desc="狼人之夜文字游戏",

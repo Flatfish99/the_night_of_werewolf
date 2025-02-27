@@ -68,7 +68,7 @@ class NightOfWolf(Plugin):
             return
 
         else:  # 未知命令
-            reply.content = self.
+            reply.content = self.game.process_input(command)
             e_context["reply"] = reply
             e_context.action = EventAction.BREAK_PASS
             return

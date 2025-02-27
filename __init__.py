@@ -1,0 +1,1 @@
+from .NightOfWolfPlugin import *
